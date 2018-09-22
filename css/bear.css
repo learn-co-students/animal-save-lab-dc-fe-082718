@@ -10,3 +10,26 @@ html {
 
 /* Write your solution here */
 
+@media screen and (min-width: 1196px) {
+    #bear {
+      left: 800px;
+    }
+}    
+
+@media screen and (max-width: 200px) {
+    #ostrich {
+      top: 100px;
+    }
+}    
+
+@media screen and (min-width: 406px) and (min-width: 1170px) {
+    #monkey {
+      left: 800px;
+    }
+}    
+
+@media screen and (min-width: 642px) and (min-width: 1090px) {
+    #dolphin {
+      transform: rotate(180deg);
+    }
+}   
